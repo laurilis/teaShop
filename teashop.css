@@ -1,0 +1,123 @@
+* {font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    }
+
+/* Header */    
+header {border-bottom: 1px solid seashell;
+        display: inline-flex;
+        height: 69px;
+        position: fixed; 
+        align-items: center;
+         width: 100%; 
+         justify-content: space-between;
+        z-index: 5;}   
+        
+.nav li {text-decoration: underline;
+        display: inline;
+        margin-right: 15px;
+        }
+
+#logo {padding-left: 10px;
+        height: 50px;
+        }
+
+/* Banner */
+
+.missioncontainer {display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+.missiontext {position: absolute;
+                align-items: center;
+                text-align: center;
+                width: 1200px;
+                justify-content: center;}
+
+#mission {position: relative;
+        z-index: -5;
+        margin-top: 69px;
+        height: 700px;
+        width: 1200px;}
+
+/* Tea of the Month Headline */
+.monthtea {display: flex;
+}
+        
+.list{list-style-type: none;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      }
+/* Tea of the Month ITEMS */
+
+.itemcontainer {display: flex;
+       justify-content: center;
+       position: relative;
+       flex-wrap: wrap;
+       width: 1000px;
+       margin: 0 auto;
+        }
+
+.item img {height: 200px;
+        width: 300px;
+        margin: 10px;
+        
+        }
+
+.itemcontainer p {margin-top: 10px;
+        text-align: center;
+        font-weight: bold;
+        }
+
+/* Locations */        
+.locationcontainer {display: flex;
+                justify-content: space-around;
+                align-content: center;
+                flex-wrap: wrap;
+                background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+                height: 500px;
+                width: 1000px;
+                margin: 10px auto;
+                }
+
+.locationitems {display: inline-flex; 
+               flex-direction: column;
+                text-align: center; 
+                width: 300px;
+                height: 300px;
+                justify-content: center;
+                opacity: 1;}
+
+#headline {margin: 0 auto;
+        text-align: center;
+        width: 100%; 
+        position: relative;
+        justify-content: space-around;
+        top: 80px;
+        z-index: 3;
+        background: transparent;
+        }
+
+/* contact info */
+
+.contact {display: flex;
+        height: 200px;
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;}
+
+footer {position: relative;
+        left: 20px;}
+
+
+                
+
+
+
+
+
+
